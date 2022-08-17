@@ -1,9 +1,11 @@
 import './App.css';
-import Auth from './components/AuthPage/Auth';
+import NavBar from './components/NavBar/NavBar'
+import Weather from './components/Weather/Weather'
 function App() {
   return (
     <>
-      <Auth/>
+    <NavBar/>
+    <Weather/>
     </>
   );
 }
